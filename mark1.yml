@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Capture the responce code 
+      url_code: url=http://nishantparhi.com/
+      register: result
+
+    - debug: var=result 
