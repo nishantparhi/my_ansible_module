@@ -1,4 +1,4 @@
-# my_ansible_module
+# An example of Custom Ansible Module
 
 My Custom Ansible module to find the response code from a website.
 
